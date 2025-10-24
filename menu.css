@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root {
+    --main-color: #443;
+    --border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+    --border-radius-hover: 4% 95% 6% 95% / 95% 4% 92% 5%;
+    --border: .2rem solid var(--main-color);
+    --border-hover: .2rem dashed var(--main-color);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+#myInput {
+    background-image: url('');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 33.33%; 
+    height: 30px;
+    font-size: 20px; 
+    padding: 12px 50px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+    margin-left: 600px;
+    border-radius: 10%;
+  }
+
+.navsearch{
+    margin-bottom: 25px;
+    padding: 0;
+    background: rgb(112, 198, 69);
+    display: flex;
+}
+
+#myUL li {
+    display: inline-block;
+}
+
+#myUL li img{
+    width: 300px;
+    height: 250px;
+}
+
+.logo{
+    background: rgb(112, 198, 69);
+}
+.logo img{
+    width: 80px;
+    height: 70px;
+}
+
+.header .logo {
+    color: var(--main-color);
+    font-size: 2.3rem;
+}
+
+.header .logo i {
+    padding-left: .5rem;
+}
+
+.header .navbar a {
+    font-size: 25px;
+    color: var(--main-color);
+    margin-bottom: 150px;
+    position: relative;
+    font-weight: 400;
+    margin:6px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:rgb(233, 237, 16);
+}
+.navbar a.active::after,
+.navbar a:hover::before{
+    content: "";
+    width: 30%;
+    height:2px;
+    background: rgb(4, 93, 20);
+    position:absolute;
+    bottom:-4px;
+}
+

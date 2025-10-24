@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://img.freepik.com/premium-vector/food-logo-with-spoon-fork-symbol-illustration_337180-907.jpg'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    font-family: Arial, sans-serif; /* Adjust font if needed */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
